@@ -47,6 +47,7 @@ export class Button extends React.Component<IProps> {
       <button
         className={classes(classNames.button, disabled ? classNames.disabled : classNames[type], className)}
         disabled={disabled}
+        onClick={() => console.info("test")}
         {...rest}
       >
         {children}
