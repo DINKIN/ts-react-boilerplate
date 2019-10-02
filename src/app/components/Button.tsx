@@ -55,3 +55,5 @@ export class Button extends React.Component<IProps> {
     );
   }
 }
+
+console.info(1 | 0);

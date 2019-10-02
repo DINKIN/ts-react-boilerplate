@@ -35,3 +35,5 @@ export const SwitchableButton = ({state, setState}) => (
 SwitchableButton.story = {
   decorators: [withInitialState({type: "primary"})]
 };
+
+console.info(1 | 0);

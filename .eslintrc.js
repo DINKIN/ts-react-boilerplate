@@ -315,6 +315,7 @@ module.exports = {
     {
       "files": ["*.stories.tsx"],
       "rules": {
+        "no-bitwise": "off",
         "@typescript-eslint/tslint/config": [
           "error",
           {
